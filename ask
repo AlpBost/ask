@@ -37,4 +37,4 @@ RESPONSE=$(curl -s "$ASK_API_URL" \
         ]
     }") 
 # Result
-echo "$RESPONSE" | jq -r '.choices[0].message.content'
+echo "$RESPONSE" | jq -r '.choices[0].message.content' 
